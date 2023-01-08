@@ -20,6 +20,13 @@ html{
     scroll-behavior: smooth;
 }
 
+.bizform{
+border-color: #C08008;
+}
+.bizform:focus{
+    border-color: #C08008!important ;
+}
+
 /* setup & reusable stylings */
 img{
     width: 100%;
