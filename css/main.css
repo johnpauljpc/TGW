@@ -20,11 +20,27 @@ html{
     scroll-behavior: smooth;
 }
 
-.bizform{
-border-color: #C08008;
+
 }
-.bizform:focus{
-    border-color: #C08008!important ;
+.bizform form input,
+.bizform form textarea{
+    width: 100%;
+    font-size: 1.1rem;
+    margin: 0.2rem 0;
+    padding: 0.8rem 0.6rem;
+    border: none;
+    border-bottom: 1.5px solid #f0f0f0;
+    outline: 0;
+}
+.bizform form input::placeholder,
+.bizform form textarea::placeholder{
+    font-size: 1.1rem;
+    font-weight: 300;
+    opacity: 0.8;
+}
+.bizform form input:focus,
+.bizform form textarea:focus{
+    border-color: var(--night-rider);
 }
 
 /* setup & reusable stylings */
